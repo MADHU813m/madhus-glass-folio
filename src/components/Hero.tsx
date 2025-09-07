@@ -1,6 +1,6 @@
 import { Github, Instagram, Download, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import profilePhoto from '@/assets/profile-photo.jpg';
+import profilePhoto from '@/assets/profile-photo.png';
 
 const Hero = () => {
   const downloadResume = () => {
@@ -17,7 +17,7 @@ const Hero = () => {
             <div className="relative">
               <div className="glass rounded-2xl p-6 hero-float">
                 <img
-                  src={profilePhoto}
+                  src="/lovable-uploads/9113dca5-8b38-4125-8344-2aaf5621553b.png"
                   alt="DADI Madhu - Web Developer"
                   className="w-80 h-80 object-cover rounded-xl shadow-glass"
                 />
