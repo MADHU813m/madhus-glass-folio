@@ -4,8 +4,10 @@ import profilePhoto from '@/assets/profile-photo.png';
 
 const Hero = () => {
   const downloadResume = () => {
-    // Placeholder for resume download
-    alert('Resume download would be implemented here. Please add your resume file.');
+    const link = document.createElement('a');
+    link.href = '/DADI_Madhu_Resume.pdf';
+    link.download = 'DADI_Madhu_Resume.pdf';
+    link.click();
   };
 
   return (
